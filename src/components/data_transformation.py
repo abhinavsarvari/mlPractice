@@ -114,7 +114,6 @@ class DataTransformation:
                 obj=preprocessing_obj
 
             )
-
             return (
                 train_arr,
                 test_arr,
@@ -123,4 +122,3 @@ class DataTransformation:
         except Exception as e:
             ##for raising customException
             raise CustomException(e,sys)
-        
